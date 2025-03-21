@@ -12,8 +12,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt',force=True)
+nltk.download('stopwords',force=True)
 
 from wordcloud import WordCloud
 from collections import Counter
