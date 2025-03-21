@@ -1,4 +1,3 @@
-# Spam-Classifier
 ---
 title: Spam Classifier
 emoji: 📧
@@ -19,10 +18,10 @@ Checkout the live demo: [Spam Classifier]()
 
 ## Features:
 
-1.Instant Prediction: Categorizes messages into spam or ham instantly
-2.Interactive User Interface: Easy-to-use interface built in Streamlit
-3.Highly Precise and Accurate: Model trained using Bernoulli Naive Based with accuracy of 0.98 and Precision of 0.99
-4.Simple Deployment: Hosted on Hugging Spaces
+1) Instant Prediction: Categorizes messages into spam or ham instantly
+2) Interactive User Interface: Easy-to-use interface built in Streamlit
+3) Highly Precise and Accurate: Model trained using Bernoulli Naive Based with accuracy of 0.98 and Precision of 0.99
+4) Simple Deployment: Hosted on Hugging Spaces
 
 a) What's different?
 
