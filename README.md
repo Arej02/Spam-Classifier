@@ -1,14 +1,23 @@
 # Spam-Classifier
+---
+title: Spam Classifier
+emoji: 📧
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+app_file:app.py
+pinned: false
+---
 
-##Introduction to the website:
+## Introduction to the website:
 
-A power and efficient spam classification web application build using **Streamlit**. This allows the user to input messages that gets categorized into either spam or ham messages. This model was trained from the dataset "SMS Spam Collection" from Kaggle which consisted of 5,574 different messages. This model uses techniques like Natural Processing Language(NLP) for text preprocessing, TF-IDF for feature selection and Bernoulli Naive Bayes for model training.
+A powerful and efficient spam classification web application built using **Streamlit**. This allows the user to input messages that gets categorized into either spam or ham messages. This model was trained from the dataset "SMS Spam Collection" from Kaggle which consisted of 5,574 different messages. This model uses techniques like Natural Processing Language(NLP) for text preprocessing, TF-IDF for feature selection and Bernoulli Naive Bayes for model training.
 
-##Demo 
+## Demo 
 
 Checkout the live demo: [Spam Classifier]()
 
-##Features:
+## Features:
 
 1.Instant Prediction: Categorizes messages into spam or ham instantly
 2.Interactive User Interface: Easy-to-use interface built in Streamlit
@@ -27,7 +36,7 @@ c)How can I improve?
 
 My model does not handle out-of-vocabulary-words meaning if any words that are given beyond the training set, it will completely be ignored. This is a strong loophole as the word regardless of how important it is, is neglected. Another issue is with overlapping words, which I messaged during my EDA where words like "call" was present in both spam and ham messages which means such kinds of words provide a small or ambiguous contribution. The last issue I could see was when I received large amount of text the bar plot will clutter with too much words. 
 
-##Technology Used:
+## Technology Used:
 
 - **Python** (Programming Language)
 - **Streamlit** (Frontend Framework for Web App Deployment)
@@ -40,6 +49,6 @@ My model does not handle out-of-vocabulary-words meaning if any words that are g
 - **WordCloud** (Visualizing Common Words)
 - **Pickle** (Saving and Loading Machine Learning Models)
 
-##Installation
+## Installation
 
 1.**Clone the Repository**
