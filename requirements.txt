@@ -5,3 +5,4 @@ matplotlib
 seaborn
 nltk
 wordcloud
+scikit-learn
