@@ -20,13 +20,13 @@ from collections import Counter
 
 
 #Opening the required files:
-with open ('model.pkl','rb') as file:
+with open ('model/model.pkl','rb') as file:
     model=pickle.load(file)
-with open ('vectorizer.pkl','rb') as file:
+with open ('model/vectorizer.pkl','rb') as file:
     tfidf=pickle.load(file)
 
 #Reading the cleaned dataframe:
-df=pd.read_csv('spam_cleaned.csv',encoding="latin-1")
+df=pd.read_csv('model/spam_cleaned.csv',encoding="latin-1")
 
 snow_ball=SnowballStemmer('english')
 #Function1: Text Preprocessing:
