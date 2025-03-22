@@ -13,12 +13,21 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
-nltk.download('punkt', download_dir=tempfile.gettempdir())
-nltk.data.path.append(tempfile.gettempdir())
-nltk.download('stopwords')
-
 from wordcloud import WordCloud
 from collections import Counter
+
+nltk.download('punkt_tab', download_dir=tempfile.gettempdir())
+nltk.download('stopwords', download_dir=tempfile.gettempdir())
+
+nltk.data.path.append(tempfile.gettempdir())
+
+try:
+    nltk.data.find('tokenizers/punkt_tab/english')
+    nltk.data.find('corpora/stopwords')
+    print("NLTK resources found!")
+except LookupError:
+    st.error("NLTK resources not found. Please check the download.")
+    st.stop()
 
 
 #Opening the required files:
