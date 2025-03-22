@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import string
+import tempfile
 
 import pandas as pd
 import numpy as np
@@ -12,8 +13,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
-nltk.download('punkt', download_dir='/home/user/nltk_data')
-nltk.data.path.append('/home/user/nltk_data')
+nltk.download('punkt', download_dir=tempfile.gettempdir())
+nltk.data.path.append(tempfile.gettempdir())
 nltk.download('stopwords')
 
 from wordcloud import WordCloud
