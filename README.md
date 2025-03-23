@@ -15,7 +15,7 @@ A powerful and efficient spam classification web application built using **Strea
 
 ## Demo 
 
-Checkout the live demo: [Spam Classifier]()
+Checkout the live demo: [Spam Classifier](https://huggingface.co/spaces/Arej02/Spam-Classifier)
 
 ## Features:
 
@@ -52,3 +52,4 @@ My model does not handle out-of-vocabulary-words meaning if any words that are g
 ## Installation
 
 1.**Clone the Repository**
+git clone https://github.com/Arej02/Spam-Classifier.git
